@@ -1,0 +1,13 @@
+com\xxxx\skill\utils\CodeGenerator$1.class
+com\xxxx\skill\controller\UserController.class
+com\xxxx\skill\service\IUserService.class
+com\xxxx\skill\SkillDemoApplication.class
+com\xxxx\skill\utils\CodeGenerator$2.class
+com\xxxx\skill\utils\CodeGenerator.class
+com\xxxx\skill\vo\RespBean.class
+com\xxxx\skill\utils\MD5Utils.class
+com\xxxx\skill\mapper\UserMapper.class
+com\xxxx\skill\service\impl\UserServiceImpl.class
+com\xxxx\skill\vo\RespBeanEnum.class
+com\xxxx\skill\pojo\User.class
+com\xxxx\skill\controller\DemoController.class

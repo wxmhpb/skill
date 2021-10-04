@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.xxxx.skill.SkillDemoApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.715 s <<< FAILURE! - in com.xxxx.skill.SkillDemoApplicationTests
+contextLoads  Time elapsed: 0.015 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.yaml.snakeyaml.error.YAMLException: java.nio.charset.MalformedInputException: Input length = 1
+Caused by: java.nio.charset.MalformedInputException: Input length = 1
+

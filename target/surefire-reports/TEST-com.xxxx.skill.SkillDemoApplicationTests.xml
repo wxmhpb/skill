@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.xxxx.skill.SkillDemoApplicationTests" time="0.715" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="C:\Users\liangqi\Desktop\fromMM\skill-demo\target\test-classes;C:\Users\liangqi\Desktop\fromMM\skill-demo\target\classes;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\boot\spring-boot-starter-thymeleaf\2.4.0\spring-boot-starter-thymeleaf-2.4.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\boot\spring-boot-starter\2.4.0\spring-boot-starter-2.4.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\boot\spring-boot-starter-logging\2.4.0\spring-boot-starter-logging-2.4.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\apache\logging\log4j\log4j-to-slf4j\2.13.3\log4j-to-slf4j-2.13.3.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\slf4j\jul-to-slf4j\1.7.30\jul-to-slf4j-1.7.30.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\yaml\snakeyaml\1.27\snakeyaml-1.27.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\thymeleaf\thymeleaf-spring5\3.0.11.RELEASE\thymeleaf-spring5-3.0.11.RELEASE.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\thymeleaf\thymeleaf\3.0.11.RELEASE\thymeleaf-3.0.11.RELEASE.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\attoparser\attoparser\2.0.5.RELEASE\attoparser-2.0.5.RELEASE.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\thymeleaf\extras\thymeleaf-extras-java8time\3.0.4.RELEASE\thymeleaf-extras-java8time-3.0.4.RELEASE.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\boot\spring-boot-starter-web\2.4.0\spring-boot-starter-web-2.4.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\boot\spring-boot-starter-json\2.4.0\spring-boot-starter-json-2.4.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\fasterxml\jackson\core\jackson-databind\2.11.3\jackson-databind-2.11.3.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\fasterxml\jackson\core\jackson-annotations\2.11.3\jackson-annotations-2.11.3.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\fasterxml\jackson\core\jackson-core\2.11.3\jackson-core-2.11.3.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.11.3\jackson-datatype-jdk8-2.11.3.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.11.3\jackson-datatype-jsr310-2.11.3.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.11.3\jackson-module-parameter-names-2.11.3.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\boot\spring-boot-starter-tomcat\2.4.0\spring-boot-starter-tomcat-2.4.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\apache\tomcat\embed\tomcat-embed-core\9.0.39\tomcat-embed-core-9.0.39.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\glassfish\jakarta.el\3.0.3\jakarta.el-3.0.3.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.39\tomcat-embed-websocket-9.0.39.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\spring-web\5.3.1\spring-web-5.3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\spring-beans\5.3.1\spring-beans-5.3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\spring-webmvc\5.3.1\spring-webmvc-5.3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\spring-aop\5.3.1\spring-aop-5.3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\spring-context\5.3.1\spring-context-5.3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\spring-expression\5.3.1\spring-expression-5.3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\mysql\mysql-connector-java\8.0.22\mysql-connector-java-8.0.22.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\projectlombok\lombok\1.18.16\lombok-1.18.16.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\boot\spring-boot-starter-test\2.4.0\spring-boot-starter-test-2.4.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\boot\spring-boot-test\2.4.0\spring-boot-test-2.4.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\boot\spring-boot-test-autoconfigure\2.4.0\spring-boot-test-autoconfigure-2.4.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\net\minidev\json-smart\2.3\json-smart-2.3.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\assertj\assertj-core\3.18.1\assertj-core-3.18.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\mockito\mockito-core\3.6.0\mockito-core-3.6.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\net\bytebuddy\byte-buddy\1.10.18\byte-buddy-1.10.18.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\net\bytebuddy\byte-buddy-agent\1.10.18\byte-buddy-agent-1.10.18.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\mockito\mockito-junit-jupiter\3.6.0\mockito-junit-jupiter-3.6.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\spring-core\5.3.1\spring-core-5.3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\spring-jcl\5.3.1\spring-jcl-5.3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\spring-test\5.3.1\spring-test-5.3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\xmlunit\xmlunit-core\2.7.0\xmlunit-core-2.7.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\baomidou\mybatis-plus-boot-starter\3.3.1\mybatis-plus-boot-starter-3.3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\baomidou\mybatis-plus\3.3.1\mybatis-plus-3.3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\boot\spring-boot-starter-jdbc\2.4.0\spring-boot-starter-jdbc-2.4.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\zaxxer\HikariCP\3.4.5\HikariCP-3.4.5.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\spring-jdbc\5.3.1\spring-jdbc-5.3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\spring-tx\5.3.1\spring-tx-5.3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\baomidou\mybatis-plus-generator\3.4.1\mybatis-plus-generator-3.4.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\baomidou\mybatis-plus-extension\3.4.1\mybatis-plus-extension-3.4.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\baomidou\mybatis-plus-core\3.4.1\mybatis-plus-core-3.4.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\baomidou\mybatis-plus-annotation\3.4.1\mybatis-plus-annotation-3.4.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\github\jsqlparser\jsqlparser\3.2\jsqlparser-3.2.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\apache\velocity\velocity-engine-core\2.2\velocity-engine-core-2.2.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\mybatis\spring\boot\mybatis-spring-boot-starter\1.2.0\mybatis-spring-boot-starter-1.2.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\mybatis\spring\boot\mybatis-spring-boot-autoconfigure\1.2.0\mybatis-spring-boot-autoconfigure-1.2.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\mybatis\mybatis\3.4.2\mybatis-3.4.2.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\mybatis\mybatis-spring\1.3.1\mybatis-spring-1.3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\boot\spring-boot-autoconfigure\2.4.0\spring-boot-autoconfigure-2.4.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\boot\spring-boot\2.4.0\spring-boot-2.4.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="GMT+08:00"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\liangqi\AppData\Local\Temp\surefire1752975313723454870\surefirebooter8584451993118050030.jar C:\Users\liangqi\AppData\Local\Temp\surefire1752975313723454870 2021-10-03T21-18-30_465-jvmRun1 surefire5913029978692397700tmp surefire_04757620582784209817tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\liangqi\Desktop\fromMM\skill-demo\target\test-classes;C:\Users\liangqi\Desktop\fromMM\skill-demo\target\classes;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\boot\spring-boot-starter-thymeleaf\2.4.0\spring-boot-starter-thymeleaf-2.4.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\boot\spring-boot-starter\2.4.0\spring-boot-starter-2.4.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\boot\spring-boot-starter-logging\2.4.0\spring-boot-starter-logging-2.4.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\apache\logging\log4j\log4j-to-slf4j\2.13.3\log4j-to-slf4j-2.13.3.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\slf4j\jul-to-slf4j\1.7.30\jul-to-slf4j-1.7.30.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\yaml\snakeyaml\1.27\snakeyaml-1.27.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\thymeleaf\thymeleaf-spring5\3.0.11.RELEASE\thymeleaf-spring5-3.0.11.RELEASE.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\thymeleaf\thymeleaf\3.0.11.RELEASE\thymeleaf-3.0.11.RELEASE.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\attoparser\attoparser\2.0.5.RELEASE\attoparser-2.0.5.RELEASE.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\thymeleaf\extras\thymeleaf-extras-java8time\3.0.4.RELEASE\thymeleaf-extras-java8time-3.0.4.RELEASE.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\boot\spring-boot-starter-web\2.4.0\spring-boot-starter-web-2.4.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\boot\spring-boot-starter-json\2.4.0\spring-boot-starter-json-2.4.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\fasterxml\jackson\core\jackson-databind\2.11.3\jackson-databind-2.11.3.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\fasterxml\jackson\core\jackson-annotations\2.11.3\jackson-annotations-2.11.3.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\fasterxml\jackson\core\jackson-core\2.11.3\jackson-core-2.11.3.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.11.3\jackson-datatype-jdk8-2.11.3.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.11.3\jackson-datatype-jsr310-2.11.3.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.11.3\jackson-module-parameter-names-2.11.3.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\boot\spring-boot-starter-tomcat\2.4.0\spring-boot-starter-tomcat-2.4.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\apache\tomcat\embed\tomcat-embed-core\9.0.39\tomcat-embed-core-9.0.39.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\glassfish\jakarta.el\3.0.3\jakarta.el-3.0.3.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.39\tomcat-embed-websocket-9.0.39.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\spring-web\5.3.1\spring-web-5.3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\spring-beans\5.3.1\spring-beans-5.3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\spring-webmvc\5.3.1\spring-webmvc-5.3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\spring-aop\5.3.1\spring-aop-5.3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\spring-context\5.3.1\spring-context-5.3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\spring-expression\5.3.1\spring-expression-5.3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\mysql\mysql-connector-java\8.0.22\mysql-connector-java-8.0.22.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\projectlombok\lombok\1.18.16\lombok-1.18.16.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\boot\spring-boot-starter-test\2.4.0\spring-boot-starter-test-2.4.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\boot\spring-boot-test\2.4.0\spring-boot-test-2.4.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\boot\spring-boot-test-autoconfigure\2.4.0\spring-boot-test-autoconfigure-2.4.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\net\minidev\json-smart\2.3\json-smart-2.3.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\assertj\assertj-core\3.18.1\assertj-core-3.18.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\mockito\mockito-core\3.6.0\mockito-core-3.6.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\net\bytebuddy\byte-buddy\1.10.18\byte-buddy-1.10.18.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\net\bytebuddy\byte-buddy-agent\1.10.18\byte-buddy-agent-1.10.18.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\mockito\mockito-junit-jupiter\3.6.0\mockito-junit-jupiter-3.6.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\spring-core\5.3.1\spring-core-5.3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\spring-jcl\5.3.1\spring-jcl-5.3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\spring-test\5.3.1\spring-test-5.3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\xmlunit\xmlunit-core\2.7.0\xmlunit-core-2.7.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\baomidou\mybatis-plus-boot-starter\3.3.1\mybatis-plus-boot-starter-3.3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\baomidou\mybatis-plus\3.3.1\mybatis-plus-3.3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\boot\spring-boot-starter-jdbc\2.4.0\spring-boot-starter-jdbc-2.4.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\zaxxer\HikariCP\3.4.5\HikariCP-3.4.5.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\spring-jdbc\5.3.1\spring-jdbc-5.3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\spring-tx\5.3.1\spring-tx-5.3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\baomidou\mybatis-plus-generator\3.4.1\mybatis-plus-generator-3.4.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\baomidou\mybatis-plus-extension\3.4.1\mybatis-plus-extension-3.4.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\baomidou\mybatis-plus-core\3.4.1\mybatis-plus-core-3.4.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\baomidou\mybatis-plus-annotation\3.4.1\mybatis-plus-annotation-3.4.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\com\github\jsqlparser\jsqlparser\3.2\jsqlparser-3.2.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\apache\velocity\velocity-engine-core\2.2\velocity-engine-core-2.2.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\mybatis\spring\boot\mybatis-spring-boot-starter\1.2.0\mybatis-spring-boot-starter-1.2.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\mybatis\spring\boot\mybatis-spring-boot-autoconfigure\1.2.0\mybatis-spring-boot-autoconfigure-1.2.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\mybatis\mybatis\3.4.2\mybatis-3.4.2.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\mybatis\mybatis-spring\1.3.1\mybatis-spring-1.3.1.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\boot\spring-boot-autoconfigure\2.4.0\spring-boot-autoconfigure-2.4.0.jar;D:\AC\NewFile\javaweb\Spring\maven\localRepository\org\springframework\boot\spring-boot\2.4.0\spring-boot-2.4.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\liangqi"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre"/>
+    <property name="basedir" value="C:\Users\liangqi\Desktop\fromMM\skill-demo"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\liangqi\AppData\Local\Temp\surefire1752975313723454870\surefirebooter8584451993118050030.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="user.name" value="liangqi"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\AC\NewFile\javaweb\Spring\maven\localRepository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\liangqi\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.2.1"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="user.dir" value="C:\Users\liangqi\Desktop\fromMM\skill-demo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\liangqi\Desktop\code0\OracleXE112_Win64\orc_dir\app\oracle\product\11.2.0\server\bin;;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\AC\NewFile\MySQL\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;D:\AC\NewFile\javaweb\Spring\maven\apache-maven-3.5.0\bin\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\AC\tools\node.js\Install_dir\;D:\AC\tools\node.js\node_global;&quot;D:\AC\NewFile\SSM_idea\leyou_mm\tools\rabbitmq_win\erlong_info\erl9.2\bin;&quot;;&quot;D:\AC\NewFile\SSM_idea\leyou_mm\tools\rabbitmq_win\rabbitmq_info\rabbitmq_server-3.7.4\sbin;&quot;D:\AC\NewFile\javaweb\Tomcat_server\apache-tomcat-8.5.34\bin;D:\AC\NewFile\javaweb\Tomcat_server\apache-tomcat-8.5.34\lib&quot;;D:\AC\tools\Git\Git\cmd;D:\AC\tools\xshell7\;D:\AC\tools\xftp7\;C:\Users\liangqi\AppData\Local\Microsoft\WindowsApps;D:\AC\tools\tool\SSH;D:\AC\NewFile\SSM_idea\tensquare_project\ziliao\mongodb\bin;C:\Users\liangqi\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value="D:\AC\NewFile\javaweb\Spring\maven\localRepository"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="contextLoads" classname="com.xxxx.skill.SkillDemoApplicationTests" time="0.015">
+    <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.yaml.snakeyaml.error.YAMLException: java.nio.charset.MalformedInputException: Input length = 1
+Caused by: java.nio.charset.MalformedInputException: Input length = 1
+</error>
+    <system-out><![CDATA[21:18:32.353 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+21:18:32.370 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+21:18:32.409 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.xxxx.skill.SkillDemoApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+21:18:32.422 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.xxxx.skill.SkillDemoApplicationTests], using SpringBootContextLoader
+21:18:32.427 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.xxxx.skill.SkillDemoApplicationTests]: class path resource [com/xxxx/skill/SkillDemoApplicationTests-context.xml] does not exist
+21:18:32.427 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.xxxx.skill.SkillDemoApplicationTests]: class path resource [com/xxxx/skill/SkillDemoApplicationTestsContext.groovy] does not exist
+21:18:32.427 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.xxxx.skill.SkillDemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+21:18:32.428 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.xxxx.skill.SkillDemoApplicationTests]: SkillDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:18:32.474 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.xxxx.skill.SkillDemoApplicationTests]
+21:18:32.558 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\liangqi\Desktop\fromMM\skill-demo\target\classes\com\xxxx\skill\SkillDemoApplication.class]
+21:18:32.561 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.xxxx.skill.SkillDemoApplication for test class com.xxxx.skill.SkillDemoApplicationTests
+21:18:32.683 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.xxxx.skill.SkillDemoApplicationTests]: using defaults.
+21:18:32.684 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+21:18:32.702 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1750fbeb, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5b247367, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@268f106e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6e9a5ed8, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7e057f43, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6c284af, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5890e879, org.springframework.test.context.event.EventPublishingTestExecutionListener@6440112d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@31ea9581, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@231f98ef, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7c137fd5, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@183ec003, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7d9d0818, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@221a3fa4]
+21:18:32.707 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@76494737 testClass = SkillDemoApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4a003cbe testClass = SkillDemoApplicationTests, locations = '{}', classes = '{class com.xxxx.skill.SkillDemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1a451d4d, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@5fdcaa40, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@4fb0f2b9, org.springframework.boot.test.web.reactive.server.WebTestClientContextCustomizer@4a94ee4, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1aa7ecca, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@36bc55de, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@59fa1d9b], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+21:18:32.745 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+21:18:32.949 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.yaml.snakeyaml.error.YAMLException: java.nio.charset.MalformedInputException: Input length = 1
+	at org.yaml.snakeyaml.reader.StreamReader.update(StreamReader.java:218)
+	at org.yaml.snakeyaml.reader.StreamReader.ensureEnoughData(StreamReader.java:176)
+	at org.yaml.snakeyaml.reader.StreamReader.ensureEnoughData(StreamReader.java:171)
+	at org.yaml.snakeyaml.reader.StreamReader.peek(StreamReader.java:126)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanToNextToken(ScannerImpl.java:1177)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:287)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:227)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseImplicitDocumentStart.produce(ParserImpl.java:195)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.checkNode(Composer.java:82)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.checkData(BaseConstructor.java:123)
+	at org.yaml.snakeyaml.Yaml$1.hasNext(Yaml.java:507)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:200)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:164)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:84)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:45)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:34)
+	at org.springframework.boot.context.config.ConfigDataLoaders.load(ConfigDataLoaders.java:102)
+	at org.springframework.boot.context.config.ConfigDataImporter.load(ConfigDataImporter.java:118)
+	at org.springframework.boot.context.config.ConfigDataImporter.resolveAndLoad(ConfigDataImporter.java:82)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentContributors.withProcessedImports(ConfigDataEnvironmentContributors.java:118)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processInitial(ConfigDataEnvironment.java:230)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processAndApply(ConfigDataEnvironment.java:217)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:88)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:80)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEnvironmentPreparedEvent(EnvironmentPostProcessorApplicationListener.java:100)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEvent(EnvironmentPostProcessorApplicationListener.java:86)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:203)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:196)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:170)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:148)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:122)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:99)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:350)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:355)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$7(ClassBasedTestDescriptor.java:350)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:349)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$4(ClassBasedTestDescriptor.java:270)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:269)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:259)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:258)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:101)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:100)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:79)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.nio.charset.MalformedInputException: Input length = 1
+	at java.nio.charset.CoderResult.throwException(CoderResult.java:281)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at org.yaml.snakeyaml.reader.UnicodeReader.read(UnicodeReader.java:125)
+	at org.yaml.snakeyaml.reader.StreamReader.update(StreamReader.java:183)
+	... 110 common frames omitted
+21:18:32.951 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@1750fbeb] to prepare test instance [com.xxxx.skill.SkillDemoApplicationTests@4b79ac84]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:99)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:350)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:355)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$7(ClassBasedTestDescriptor.java:350)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:349)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$4(ClassBasedTestDescriptor.java:270)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:269)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:259)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:258)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:101)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:100)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:79)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.yaml.snakeyaml.error.YAMLException: java.nio.charset.MalformedInputException: Input length = 1
+	at org.yaml.snakeyaml.reader.StreamReader.update(StreamReader.java:218)
+	at org.yaml.snakeyaml.reader.StreamReader.ensureEnoughData(StreamReader.java:176)
+	at org.yaml.snakeyaml.reader.StreamReader.ensureEnoughData(StreamReader.java:171)
+	at org.yaml.snakeyaml.reader.StreamReader.peek(StreamReader.java:126)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanToNextToken(ScannerImpl.java:1177)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:287)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:227)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseImplicitDocumentStart.produce(ParserImpl.java:195)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.checkNode(Composer.java:82)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.checkData(BaseConstructor.java:123)
+	at org.yaml.snakeyaml.Yaml$1.hasNext(Yaml.java:507)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:200)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:164)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:84)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:45)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:34)
+	at org.springframework.boot.context.config.ConfigDataLoaders.load(ConfigDataLoaders.java:102)
+	at org.springframework.boot.context.config.ConfigDataImporter.load(ConfigDataImporter.java:118)
+	at org.springframework.boot.context.config.ConfigDataImporter.resolveAndLoad(ConfigDataImporter.java:82)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentContributors.withProcessedImports(ConfigDataEnvironmentContributors.java:118)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processInitial(ConfigDataEnvironment.java:230)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processAndApply(ConfigDataEnvironment.java:217)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:88)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:80)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEnvironmentPreparedEvent(EnvironmentPostProcessorApplicationListener.java:100)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEvent(EnvironmentPostProcessorApplicationListener.java:86)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:203)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:196)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:170)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:148)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:122)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 67 common frames omitted
+Caused by: java.nio.charset.MalformedInputException: Input length = 1
+	at java.nio.charset.CoderResult.throwException(CoderResult.java:281)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at org.yaml.snakeyaml.reader.UnicodeReader.read(UnicodeReader.java:125)
+	at org.yaml.snakeyaml.reader.StreamReader.update(StreamReader.java:183)
+	... 110 common frames omitted
+]]></system-out>
+  </testcase>
+</testsuite>
