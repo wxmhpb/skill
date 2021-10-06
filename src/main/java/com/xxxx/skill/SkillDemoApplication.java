@@ -10,7 +10,6 @@ import org.springframework.stereotype.Repository;
 @SpringBootApplication
 @MapperScan("com.xxxx.skill.mapper")
 // @EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class})
-@Repository("*Mapper")
 public class SkillDemoApplication {
 
     public static void main(String[] args) {

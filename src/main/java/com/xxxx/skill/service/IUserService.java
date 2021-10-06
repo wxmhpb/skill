@@ -4,6 +4,9 @@ import com.xxxx.skill.vo.LoginVO;
 import com.xxxx.skill.vo.RespBean;
 import org.springframework.stereotype.Service;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
 /**
  * <p>
  *  服务类
@@ -14,5 +17,5 @@ import org.springframework.stereotype.Service;
  */
 
 public interface IUserService {
-  RespBean login(LoginVO loginVO);
+  RespBean login(HttpServletRequest request, HttpServletResponse response, LoginVO loginVO);
 }
