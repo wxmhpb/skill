@@ -1,5 +1,6 @@
 package com.xxxx.skill.service.impl;
 
+import ch.qos.logback.core.pattern.color.RedCompositeConverter;
 import com.xxxx.skill.mapper.UserMapper;
 import com.xxxx.skill.pojo.User;
 import com.xxxx.skill.service.IUserService;
@@ -11,6 +12,7 @@ import com.xxxx.skill.vo.LoginVO;
 import com.xxxx.skill.vo.RespBean;
 import com.xxxx.skill.vo.RespBeanEnum;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 import org.thymeleaf.util.StringUtils;
 
@@ -29,6 +31,8 @@ import javax.servlet.http.HttpServletResponse;
 public class UserServiceImpl implements IUserService {
     @Autowired
     private UserMapper userMapper;
+    @Autowired
+    private RedisTemplate redisTemplate;
     @Override
     public RespBean login(HttpServletRequest request, HttpServletResponse response, LoginVO loginVO) {
 //        if(StringUtils.isEmpty(loginVO.getMoblie())||StringUtils.isEmpty(loginVO.getPassword())){
@@ -49,10 +53,23 @@ public class UserServiceImpl implements IUserService {
 
         //生成cookie
         String ticket= UUidUtil.uuid();
-        request.getSession().setAttribute(ticket,user);
+      //request.getSession().setAttribute(ticket,user);
+        redisTemplate.opsForValue().set("user:"+ticket,user);
         CookieUtil.setCookie(request,response,"userTicket",ticket);
 
 
         return RespBean.success(ticket);
+    }
+
+    @Override
+    public User getByUserTicket(String userTicket, HttpServletRequest request, HttpServletResponse response) {
+        if (StringUtils.isEmpty(userTicket)) {
+            return null;
+        }
+        User user=(User)redisTemplate.opsForValue().get("user:"+userTicket);
+        if(null!=user){
+            CookieUtil.setCookie(request,response,"userTicket",userTicket);
+        }
+      return user;
     }
 }

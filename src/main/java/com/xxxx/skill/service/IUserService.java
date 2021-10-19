@@ -1,5 +1,6 @@
 package com.xxxx.skill.service;
 
+import com.xxxx.skill.pojo.User;
 import com.xxxx.skill.vo.LoginVO;
 import com.xxxx.skill.vo.RespBean;
 import org.springframework.stereotype.Service;
@@ -18,4 +19,5 @@ import javax.servlet.http.HttpServletResponse;
 
 public interface IUserService {
   RespBean login(HttpServletRequest request, HttpServletResponse response, LoginVO loginVO);
+  User getByUserTicket(String userTicket,HttpServletRequest request,HttpServletResponse response);
 }

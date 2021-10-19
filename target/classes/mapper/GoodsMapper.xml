@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xxxx.skill.mapper.GoodsMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xxxx.skill.pojo.Goods">
+        <id column="id" property="id" />
+        <result column="goods_name" property="goodsName" />
+        <result column="goods_title" property="goodsTitle" />
+        <result column="goods_img" property="goodsImg" />
+        <result column="goods_datail" property="goodsDatail" />
+        <result column="goods_price" property="goodsPrice" />
+        <result column="goods_stock" property="goodsStock" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, goods_name, goods_title, goods_img, goods_datail, goods_price, goods_stock
+    </sql>
+    <select id="list" resultType="com.xxxx.skill.vo.GoodsVO">
+        select t_goods.id, t_goods.goods_name,t_goods.goods_img,t_goods.goods_price,t_skill_goods.skill_price,t_skill_goods.stock_count,t_skill_goods.start_date,t_skill_goods.end_date, t_goods.goods_datail
+        from t_goods,t_skill_goods
+        where t_goods.id=t_skill_goods.goods_id
+    </select>
+
+    <select id="findGoodsDetailByGoodsId" resultType="com.xxxx.skill.vo.GoodsVO" >
+        select t_goods.id, t_goods.goods_name,t_goods.goods_img,t_goods.goods_price,t_skill_goods.skill_price,t_skill_goods.stock_count,t_skill_goods.start_date,t_skill_goods.end_date,t_goods.goods_datail
+        from t_goods  LEFT JOIN t_skill_goods
+        on  t_goods.id=t_skill_goods.goods_id where t_goods.id=#{goodsId}
+    </select>
+
+</mapper>
